@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Fron Page */
+.front_page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.container_front_page {
+    display: grid;
+    gap: 3rem;
+    width: 60%;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    align-items: center;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.contacts img {
+    width: 28px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+/* Projects Section */
+
+.project_section {
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.container_projects {
+    display: grid;
+    gap: 2.5rem;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.project {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+.project:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.project img {
+    max-width: 100%;
+}
+
+.project_description {
+    max-width: 100%;
+    color: white;
+    background-color: rgb(19, 19, 19);
+    padding: 2rem 0;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+}
