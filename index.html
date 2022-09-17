@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Css Link -->
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
@@ -12,23 +16,50 @@
 
 <body>
     <main>
-        <section class="front_page">
-            <div class="container_front_page">
-                <h1>Hi My Name is Manuel</h1>
-                <h3>And Welcome to My Portfolio</h3>
-                <p>I'm a web developer Jr 🧑‍💻 . I like teamwork and challenges that allow me to grow as a
-                    professional.
-                </p>
+        <!-- Profile -->
+        <div class="profile_container">
+            <img src="images/1661952906427.jpg" alt="">
+            <div class="profile_description">
+                <h1>Manuel Perez Andaluz</h1>
+                <h3>Jr Full Stack</h3>
                 <div class="contacts">
-                    <a href="https://github.com/Manu-Andaluz" target="_blank"> <img src="images/github.svg"
-                            alt="GitHub"></a>
-                    <a href="https://www.linkedin.com/in/manuel-andaluz/" target="_blank"><img src="images/linkedin.svg"
-                            alt="Linkedin"></a>
+                    <a href="https://github.com/Manu-Andaluz" target="_blank"><i class="fab fa-github-square"></i></a>
+                    <a href="https://www.linkedin.com/in/manuel-andaluz/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="project_section">
+        <!-- Introduction -->
+
+        <div class="introduction_container">
+            <h2>Introduction</h2>
+            <p>I have been working more than 15 years in the IT industry, developing software and leading development
+                teams.
+
+                I have also lived the experience of being the person in charge of selecting the technological profiles
+                of a fintech for 2 years. If we put all that in a cocktail shaker, you can imagine the thousand and one
+                experiences lived.</p>
+        </div>
+
+        <div class="technologies">
+            <h2>Technologies</h2>
+            <div class="programming_lenguages">
+                <i class="fab fa-js-square"></i>
+                <i class="fab fa-react"></i>
+                <img src="images/nextjs.svg" alt="">
+                <i class="fab fa-node"></i>
+                <img src="images/mongodb.svg" alt="">
+                <img src="images/express.svg" alt="">
+                <i class="fab fa-git"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-html5"></i>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="project_section">
+            <h2>Projects</h2>
             <div class="container_projects">
 
                 <a class="project" href="https://dentist-page.vercel.app/" target="_blank">
@@ -81,7 +112,7 @@
                 </a>
 
             </div>
-        </section>
+        </div>
     </main>
 
     <footer>
