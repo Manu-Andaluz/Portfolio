@@ -125,3 +125,43 @@ footer {
     padding: 3rem 0;
     text-align: center;
 }
+
+/* 1032 */
+
+@media (max-width:1032px) {
+    .profile_container {
+        width: 80%;
+    }
+
+    .introduction_container {
+        width: 80%;
+    }
+
+    .technologies {
+        width: 80%;
+    }
+
+    .project_section {
+        width: 80%;
+    }
+}
+
+@media (max-width:780px) {
+    .profile_description h1 {
+        font-size: 1.5rem;
+    }
+
+    .profile_description h3 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width:680px) {
+    .profile_container {
+        padding: 2.5rem 0;
+    }
+
+    .profile_description {
+        margin-top: 2rem;
+    }
+}
