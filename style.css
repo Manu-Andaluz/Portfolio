@@ -18,7 +18,7 @@ a {
     flex-wrap: wrap;
     width: 60%;
     margin: 0 auto;
-    padding: 8rem 0;
+    padding: 6rem 0;
     align-items: center;
     text-align: left;
 }
@@ -147,6 +147,10 @@ footer {
 }
 
 @media (max-width:780px) {
+    .profile_container {
+        padding: 3rem 0;
+    }
+
     .profile_description h1 {
         font-size: 1.5rem;
     }
@@ -156,12 +160,24 @@ footer {
     }
 }
 
-@media (max-width:680px) {
+@media (max-width:670px) {
     .profile_container {
         padding: 2.5rem 0;
     }
 
+    .profile_container img {
+        max-width: 180px;
+    }
+}
+
+@media (max-width:607px) {
+    .profile_container {
+        display: grid;
+        gap: 2rem;
+        text-align: left;
+    }
+
     .profile_description {
-        margin-top: 2rem;
+        margin: 0;
     }
 }
