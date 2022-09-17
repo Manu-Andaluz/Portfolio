@@ -36,7 +36,7 @@ a {
 
 .contacts i {
     font-size: 1.5rem;
-    color: black;
+    color: #0c6a96;
 }
 
 /* Introduction */
@@ -120,7 +120,7 @@ a {
 /* Footer */
 
 footer {
-    color: white;
+    color: black;
     padding: 3rem 0;
     text-align: center;
 }
