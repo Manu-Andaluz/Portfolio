@@ -11,8 +11,66 @@ a {
     text-decoration: none;
 }
 
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: whitesmoke;
+}
+
+/* Scroll Bar */
+
+aside {
+    display: flex;
+    position: fixed;
+    padding-left: 1.25em;
+    left: 5em;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bar {
+    position: absolute;
+    width: 5px;
+    height: 0;
+    background: #aaa;
+    top: 0.5em;
+    left: 0;
+    border-radius: 100vmax;
+    transition: height 150ms eease-in;
+}
+
+.bar:after {
+    content: "";
+    position: absolute;
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 50%;
+    background-color: #000;
+    left: -0.16em;
+    top: 92%;
+}
+
+.menu {
+    list-style-type: none;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.menu li a {
+    cursor: pointer;
+    color: #696969;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 300ms ease-in, margin-left 300ms ease-in;
+}
+
+.menu li a.active {
+    color: #0c6a96;
+    margin-left: 5px;
+
 }
 
 /* Fron Page */
@@ -22,7 +80,7 @@ body {
     flex-wrap: wrap;
     width: 60%;
     margin: 0 auto;
-    padding: 4rem 0;
+    padding: 6rem 0;
     align-items: center;
     text-align: left;
 }
@@ -58,7 +116,7 @@ body {
 .introduction_container {
     display: grid;
     gap: 2rem;
-    padding: 3rem 0;
+    padding: 6rem 0;
     width: 50%;
     margin: 0 auto;
     line-height: 2rem;
@@ -74,7 +132,7 @@ body {
 
 .technologies {
     width: 50%;
-    padding: 5rem 0;
+    padding: 6rem 0;
     margin: 0 auto;
     display: grid;
     gap: 4rem;
@@ -161,6 +219,10 @@ footer {
 /* 1032 */
 
 @media (max-width:1032px) {
+    aside {
+        display: none;
+    }
+
     .profile_container {
         width: 80%;
     }
