@@ -1,3 +1,4 @@
+// Scroll Bar
 let bar = document.querySelector(".bar");
 
 document.onscroll = () => {
