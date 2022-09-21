@@ -11,7 +11,6 @@ a {
     text-decoration: none;
 }
 
-
 html {
     scroll-behavior: smooth;
 }
@@ -80,7 +79,7 @@ aside {
     flex-wrap: wrap;
     width: 60%;
     margin: 0 auto;
-    padding: 6rem 0;
+    padding: 4rem 0;
     align-items: center;
     text-align: left;
 }
@@ -97,14 +96,17 @@ aside {
 }
 
 .contacts i {
-    font-size: 1.5rem;
+    background-color: #000;
+    border-radius: 50%;
+    padding: 10px 12px;
+    font-size: 1.2rem;
     margin-right: 10px;
-    color: #0c6a96;
+    color: #fff;
     transition: all .2s linear;
 }
 
 .contacts i:hover {
-    color: #08425e;
+    background-color: #0c6a96;
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
@@ -116,7 +118,7 @@ aside {
 .introduction_container {
     display: grid;
     gap: 2rem;
-    padding: 6rem 0;
+    padding: 4rem 0;
     width: 50%;
     margin: 0 auto;
     line-height: 2rem;
@@ -132,7 +134,7 @@ aside {
 
 .technologies {
     width: 50%;
-    padding: 6rem 0;
+    padding: 4rem 0;
     margin: 0 auto;
     display: grid;
     gap: 4rem;
@@ -200,6 +202,12 @@ aside {
 
 .project img {
     max-width: 100%;
+    filter: contrast(70%);
+    transition: all .3s linear;
+}
+
+.project img:hover {
+    filter: contrast(1);
 }
 
 .project_description {
