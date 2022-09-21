@@ -5,7 +5,7 @@ document.onscroll = () => {
     let y = Math.floor((window.pageYOffset / document.documentElement.scrollHeight) * 100);
     bar.style.height = y * 1.08 + "%"; // 1.08 is the margin error in calculation
 
-    let remainder = Math.floor(y / 12) + 1;
+    let remainder = Math.floor(y / 10) + 1;
 
     let activeLink = document.getElementById("link-" + remainder);
 
