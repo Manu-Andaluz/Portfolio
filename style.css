@@ -99,8 +99,8 @@ aside {
 .contacts i {
     background-color: #000;
     border-radius: 50%;
-    padding: 10px 12px;
-    font-size: 1rem;
+    padding: 6px 8px;
+    font-size: 1.2rem;
     margin-right: 10px;
     color: #fff;
     transition: all .2s linear;
@@ -192,7 +192,7 @@ aside {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    transition: all .3s ease;
+    transition: all .3s linear;
 }
 
 .project:hover {
@@ -216,6 +216,40 @@ aside {
     color: white;
     background-color: rgb(19, 19, 19);
     padding: 1.4rem 0;
+}
+
+/* Certificates */
+
+.certificates_container {
+    display: grid;
+    gap: 2rem;
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.certificate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.certificate h3 {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.certificate img {
+    max-width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.certificate img:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 /* Footer */
