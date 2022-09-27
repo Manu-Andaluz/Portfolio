@@ -76,13 +76,12 @@ aside {
 /* Fron Page */
 
 .profile_container {
+    width: 90%;
     display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    margin: 0 auto;
-    padding: 4rem 0;
     align-items: center;
-    text-align: left;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 4rem 0;
 }
 
 .profile_container img {
