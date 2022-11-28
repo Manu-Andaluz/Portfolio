@@ -22,3 +22,10 @@ function activateLink(link) {
     current.classList.add("active");
     previous = current;
 }
+
+//
+let unfinishProject = document.getElementById('unfinishProject')
+
+unfinishProject.addEventListener('click', () => {
+    alert('English: App deployed on heroku available until 28/11, then I will switch to another platform \n Español: App desplegada en heroku disponible hasta el 28/11, luego cambiare a otra plataforma')
+})
