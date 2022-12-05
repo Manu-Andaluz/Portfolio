@@ -107,75 +107,169 @@
 
         <!-- Projects -->
 
-        <section class="project_section" id="projects">
-            <h2>Projects</h2>
-            <div class="container_projects">
+        <section class="projects-container">
 
-                <a class="project" href="https://dogs-pi-one.vercel.app/" target="_blank" id="unfinishProject">
-                    <img src="images/dogsPI.jpg" alt="">
-                    <div class="project_description">
-                        <h4>Dogs PI</h4>
+            <div class="project-card" onclick="this.classList.toggle('expanded')">
+                <img class="card-image" src="images/dogsPI.jpg" alt="">
+                <h4>Dogs Breeds
+                    <a href="https://dogs-pi-one.vercel.app/" target="_blank" class="project-links ">
+                        <i class="fa-brands fa-chrome"></i>
+                    </a>
+                    <a href="https://github.com/Manu-Andaluz/PI-Dogs" target="_blank" class="project-links ">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </h4>
+                <div class="text1">
+                    <div class="text-content">
+                        <div class="body-text">In this project you can see the dog breeds obtained from the api and the
+                            database, you can create a new one with the form or delete it by clicking on the breed</div>
                     </div>
-                </a>
-
-                <a class="project" href="https://movies-app-azure.vercel.app/" target="_blank">
-                    <img src="images/movies-app.jpg" alt="">
-                    <div class="project_description">
-                        <h4>Movies App</h4>
-                    </div>
-                </a>
-
-                <a class="project" href="https://pay-form-alpha.vercel.app/" target="_blank">
-                    <img src="images/PayForm.jpg" alt="">
-                    <div class="project_description">
-                        <h4>Pay Form</h4>
-                    </div>
-                </a>
-
-                <a class="project" href="https://calcular-presupuesto.vercel.app/" target="_blank">
-                    <img src="images/sacar-presupuesto.jpg" alt="">
-                    <div class="project_description">
-                        <h4>Presupuesto</h4>
-                    </div>
-                </a>
-
-                <a class="project" href="https://dentist-page.vercel.app/" target="_blank">
-                    <img src="images/dentist-page.jpg" alt="">
-                    <div class="project_description">
-                        <h4>Dentist Page</h4>
-                    </div>
-                </a>
-
-                <a class="project" href="https://frequent-questions-app.vercel.app/" target="_blank">
-                    <img src="images/more-info-app.jpg" alt="">
-                    <div class="project_description">
-                        <h4>Frequent Questions</h4>
-                    </div>
-                </a>
-
-                <a class="project" href="https://manu-andaluz.github.io/React-Menu-App/" target="_blank">
-                    <img src="images/React-Menu-App.jpg" alt="">
-                    <div class="project_description">
-                        <h4>Food Menu App</h4>
-                    </div>
-                </a>
-
-                <a class="project" href="https://rating-component-eta.vercel.app/" target="_blank">
-                    <img src="images/Rating.jpg" alt="">
-                    <div class="project_description">
-                        <h4>Rating Component</h4>
-                    </div>
-                </a>
-
-                <a class="project" href="https://manu-andaluz.github.io/Search-TvShow/" target="_blank">
-                    <img src="images/Search-Tv-Show.jpg" alt="">
-                    <div class="project_description">
-                        <h4>Search Tv Show</h4>
-                    </div>
-                </a>
-
+                </div>
+                <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30">
+                    <path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5" /></svg>
             </div>
+
+            <div class="project-card" onclick="this.classList.toggle('expanded')">
+                <img class="card-image" src="images/movies-app.jpg" alt="">
+                <h4>Movies App
+                    <a href="https://movies-app-azure.vercel.app/" target="_blank" class="project-links">
+                        <i class="fa-brands fa-chrome"></i>
+                    </a>
+                    <a href="https://github.com/Manu-Andaluz/Movies-Search-App" target="_blank" class="project-links ">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </h4>
+                <div class="text1">
+                    <div class="text-content">
+                        <div class="body-text">In this project you can search movies by name, add to
+                            favorites or remove it</div>
+                    </div>
+                </div>
+                <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30">
+                    <path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5" /></svg>
+            </div>
+
+            <div class="project-card" onclick="this.classList.toggle('expanded')">
+                <img class="card-image" src="images/PayForm.jpg" alt="">
+                <h4>Pay Form
+                    <a href="https://pay-form-alpha.vercel.app/" target="_blank" class="project-links">
+                        <i class="fa-brands fa-chrome"></i>
+                    </a>
+                    <a href="https://github.com/Manu-Andaluz/Pay-Form" target="_blank" class="project-links">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </h4>
+                <div class="text1">
+                    <div class="text-content">
+                        <div class="body-text">In this project you can see a card payment simulation, adding the data in
+                            a form and automatically filling in the data on the card</div>
+                    </div>
+                </div>
+                <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30">
+                    <path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5" /></svg>
+            </div>
+
+            <div class="project-card" onclick="this.classList.toggle('expanded')">
+                <img class="card-image" src="images/sacar-presupuesto.jpg" alt="">
+                <h4>Presupuesto
+                    <a href="https://calcular-presupuesto.vercel.app/" target="_blank" class="project-links">
+                        <i class="fa-brands fa-chrome"></i>
+                    </a>
+                    <a href="https://github.com/Manu-Andaluz/Calcular-Presupuesto" target="_blank"
+                        class="project-links">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </h4>
+                <div class="text1">
+                    <div class="text-content">
+                        <div class="body-text">In this project you can get your budget by adding your profits and losses
+                        </div>
+                    </div>
+                </div>
+                <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30">
+                    <path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5" /></svg>
+            </div>
+
+            <div class="project-card" onclick="this.classList.toggle('expanded')">
+                <img class="card-image" src="images/dentist-page.jpg" alt="">
+                <h4>Dentist Page
+                    <a href="https://dentist-page.vercel.app/" target="_blank" class="project-links">
+                        <i class="fa-brands fa-chrome"></i>
+                    </a>
+                    <a href="~#" target="_blank" class="project-links">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </h4>
+                <div class="text1">
+                    <div class="text-content">
+                        <div class="body-text">Dentist page I made to practice responsive css and html</div>
+                    </div>
+                </div>
+                <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30">
+                    <path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5" /></svg>
+            </div>
+
+            <div class="project-card" onclick="this.classList.toggle('expanded')">
+                <img class="card-image" src="images/Rating.jpg" alt="">
+                <h4>Rating Card
+                    <a href="https://rating-component-eta.vercel.app/" target="_blank" class="project-links">
+                        <i class="fa-brands fa-chrome"></i>
+                    </a>
+                    <a href="#" target="_blank" class="project-links">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </h4>
+                <div class="text1">
+                    <div class="text-content">
+                        <div class="body-text">Challenge from frontend mentor to practice</div>
+                    </div>
+                </div>
+                <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30">
+                    <path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5" /></svg>
+            </div>
+
+            <div class="project-card" onclick="this.classList.toggle('expanded')">
+                <img class="card-image" src="images/React-Menu-App.jpg" alt="">
+                <h4>Food Menu
+                    <a href="https://manu-andaluz.github.io/React-Menu-App/" target="_blank" class="project-links">
+                        <i class="fa-brands fa-chrome"></i>
+                    </a>
+                    <a href="#" target="_blank" class="project-links">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </h4>
+                <div class="text1">
+                    <div class="text-content">
+                        <div class="body-text">In this project you can see a simulation of food menu created with react.
+                            You can click the type of meal and you see the type of meal selected</div>
+                    </div>
+                </div>
+                <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30">
+                    <path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5" /></svg>
+            </div>
+
+            <div class="project-card" onclick="this.classList.toggle('expanded')">
+                <img class="card-image" src="images/Search-Tv-Show.jpg" alt="">
+                <h4>Tv Show
+                    <a href="https://manu-andaluz.github.io/Search-TvShow/" target="_blank" class="project-links">
+                        <i class="fa-brands fa-chrome"></i>
+                    </a>
+                    <a href="#" target="_blank" class="project-links">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </h4>
+                <div class="text1">
+                    <div class="text-content">
+                        <div class="body-text">In this project you can see your favorites tv show and where you can
+                            watch it</div>
+                    </div>
+                </div>
+                <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30">
+                    <path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5" /></svg>
+            </div>
+
         </section>
+
 
     </main>
 
