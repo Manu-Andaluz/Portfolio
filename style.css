@@ -351,9 +351,6 @@ footer {
         width: 80%;
     }
 
-    .project_section {
-        width: 80%;
-    }
 }
 
 @media (max-width:780px) {
@@ -377,14 +374,27 @@ footer {
 
     .profile_container img {
         max-width: 180px;
+        margin: 0 auto;
     }
+
+    .projects-container {
+        display: grid;
+        grid-template-columns: none;
+        gap: 2.5rem;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
 }
 
 @media (max-width:607px) {
     .profile_container {
         display: grid;
+        place-content: center;
+        width: 100%;
         gap: 2rem;
-        text-align: left;
+        text-align: center;
     }
 
     .profile_description {
